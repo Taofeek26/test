@@ -1,0 +1,31 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: 'test-lambda
+
+  Sample SAM Template for test-lambda
+
+  '
+Parameters:
+  Environment:
+    Type: String
+    Default: dev
+Resources:
+  HelloWorldFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: HelloWorldFunction
+      Handler: app.lambda_handler
+      Runtime: python3.10
+      Timeout: 3
+      MemorySize: 128
+      FunctionName:
+        Fn::Sub: ${Environment}-test-lambda
+      Environment:
+        Variables:
+          ConfigBucket:
+            Fn::Sub: ${Environment}-test-lambda
+      Policies:
+      - AmazonS3FullAccess
+      - AmazonAthenaFullAccess
+    Metadata:
+      SamResourceId: HelloWorldFunction

@@ -1,0 +1,11 @@
+rest_client-0.3.8.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+rest_client-0.3.8.dist-info/LICENSE,sha256=NPBuZesd3vmBz7ASKhNg8Gilnl9RluHwQQmX0qrBvQM,1076
+rest_client-0.3.8.dist-info/METADATA,sha256=YJ64XQAsXqhxUiOLV0kMu6otoa7xaaXwQtxrLVxVtxQ,2070
+rest_client-0.3.8.dist-info/RECORD,,
+rest_client-0.3.8.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rest_client-0.3.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+rest_client-0.3.8.dist-info/top_level.txt,sha256=Xtt7a6hxIYqhODURaKH0LlQhRJ4VXsrKocFdkzTKfKg,12
+rest_client/__init__.py,sha256=J2Ik1-ZPFzZ_NXT8sj6yxcGWo1cFpYDUba8VBtVVSRU,347
+rest_client/__pycache__/__init__.cpython-310.pyc,,
+rest_client/__pycache__/async.cpython-310.pyc,,
+rest_client/async.py,sha256=lcNcwihAvd6LgQZYeraqJCb8W0vW3_UiTaVDy3HHcHk,6834
